@@ -157,3 +157,22 @@ module.exports.initializeAfricanCountries = function(countries) {
         {name: "Seychelles", climate: "Warm", continent: "Africa", geo: "Nature", mood: "Relax", tours: "Food"}
     );
 }
+
+module.exports.initializeAAustralianCountries = function(countries) {
+    countries.push(
+        {name: "Australia", climate: "Warm", continent: "Australia", geo: "Nature", mood: "Relax", tours: "Food"},
+        {name: "Papua New Guinea", climate: "Warm", continent: "Australia", geo: "Nature", mood: "Relax", tours: "Food"},
+        {name: "New Zealand", climate: "Warm", continent: "Australia", geo: "Nature", mood: "Relax", tours: "Food"},
+        {name: "Fiji", climate: "Warm", continent: "Australia", geo: "Nature", mood: "Relax", tours: "Food"},
+        {name: "Solomon Islands", climate: "Warm", continent: "Australia", geo: "Nature", mood: "Relax", tours: "Food"},
+        {name: "Micronesia", climate: "Warm", continent: "Australia", geo: "Nature", mood: "Relax", tours: "Food"},
+        {name: "Vanuatu", climate: "Warm", continent: "Australia", geo: "Nature", mood: "Relax", tours: "Food"},
+        {name: "Samoa", climate: "Warm", continent: "Australia", geo: "Nature", mood: "Relax", tours: "Food"},
+        {name: "Kiribati", climate: "Warm", continent: "Australia", geo: "Nature", mood: "Relax", tours: "Food"},
+        {name: "Tonga", climate: "Warm", continent: "Australia", geo: "Nature", mood: "Relax", tours: "Food"},
+        {name: "Marshall Islands", climate: "Warm", continent: "Australia", geo: "Nature", mood: "Relax", tours: "Food"},
+        {name: "Palau", climate: "Warm", continent: "Australia", geo: "Nature", mood: "Relax", tours: "Food"},
+        {name: "Tuvalu", climate: "Warm", continent: "Australia", geo: "Nature", mood: "Relax", tours: "Food"},
+        {name: "Nauru", climate: "Warm", continent: "Australia", geo: "Nature", mood: "Relax", tours: "Food"}
+    );
+}
